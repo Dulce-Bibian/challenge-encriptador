@@ -1,0 +1,170 @@
+body{  
+    background: #F3F5FC ;
+    font-family:"Lato";
+    font-style:normal;
+    background: #131313;
+    font-size: 32px;
+    line-height: 100%;
+}
+.caja{
+  width: 100%;
+  height: 60px;
+  background:#777777;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.logo{
+    width: 10%;
+    background:none;
+    padding-top: 5px;
+
+    
+}
+
+main{
+    display:flex;
+    justify-content:center;
+
+}
+
+.text-area{
+    border: none;
+    color:#0A3871;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: lowercase;
+    margin-left: 30px;
+    background-color: #131313;
+}
+::placeholder { color:darkgreen; }
+.text-area:focus{
+    background: white;
+    outline:none;
+
+}
+
+.encriptado{
+    background:none;
+
+}
+
+.mensaje{
+    background: white;
+    background-image: url(imagenes/arbol.png);
+    background-repeat: no-repeat;
+    border: none;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 20px;
+    margin-top: 180x;
+    display:flex;
+}
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display:flex;
+    padding-top: 5px;
+    margin-left:65px;
+}
+
+.btn-encriptar{
+    background-color: darkgreen;
+    border: 1px solid darkgreen;
+    border-radius: 24px;
+    color:white;
+    cursor: pointer;
+    height: 50px;  
+    width: 145px;
+}
+
+.btn-desencriptar{
+    background: #D8DFE8;
+    border: 1px solid darkgreen;
+    border-radius: 24px;
+    color:darkgreen;
+    cursor: pointer;
+    height: 50px;
+    margin-left: 20px;   
+    width: 160px;
+}
+
+
+.btn-copiar{
+    background-color: darkgreen;
+    border: 1px solid darkgreen;
+    border-radius: 24px;
+    color:white;
+    cursor: pointer;
+    height: 50px;  
+    width: 160px;
+    margin-left: 145px;
+    margin-bottom:15px;
+    margin-top: 10px;
+}
+
+.criterio{
+    color: green;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+.candado{
+    width: 5%;
+    background:white;
+    margin-bottom: 10px;
+    margin-left:230px;
+
+}
+
+
+footer{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    background:none;
+    background:white;
+    
+}
+
+.copyright{
+    color:dark;
+    font-size: 15px;
+    text-align: center;
+    background:white;
+    font-style: italic;
+    
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    background: #777777;
+}
+
+.fa-brands {
+    font-size: 50px;
+}
+
+.fa-github{
+    color: white;
+}
+
+@media screen and (max-width:480px) {
+    .logo,.caja,footer{
+        width: auto;
+    }
+
+    main{
+        display: block;
+        margin: 0%;
+    }
+
+}
+

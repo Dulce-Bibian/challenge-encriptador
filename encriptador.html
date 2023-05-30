@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="encriptador.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+         <div class="caja">
+              <img class="logo"src="Imagenes/logo.png" alt="Logo de Alura" >
+         </div>
+    </header> 
+    <main>
+        <section>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+            <textarea class="text-area" cols="50" rows="30" placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+                <img class="candado" src="imagenes/candado.webp" alt="Imagen de candado">
+                </div>
+            <div>
+                <h6 class="criterio">Solo letras minúsculas y sin acentos</h6>
+            </div>
+        
+        </section>
+
+        <section>
+            <div class="encriptado">
+                <button class="btn-copiar" onclick="copiar()">Copiar</button>
+            </div>
+            <textarea class="mensaje"  cols="50" rows="30">
+            </textarea>
+        </section>
+             
+    
+    </main>
+
+
+    <footer>
+        <img src="">
+            <div class="contenedor">
+                <a href="https://github.com/Dulce-Bibian?tab=repositories"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <p class="copyright">Copyright Dulce Bibian-2023</p>
+    </footer>
+
+    <script src="encriptador.js"></script>
+</body>
+</html>
