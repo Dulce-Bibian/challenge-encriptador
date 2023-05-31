@@ -1,4 +1,4 @@
-body{  
+*{  
     background: #F3F5FC ;
     font-family:"Lato";
     font-style:normal;
@@ -16,9 +16,7 @@ body{
 .logo{
     width: 10%;
     background:none;
-    padding-top: 5px;
-
-    
+    padding-top: 5px; 
 }
 
 main{
